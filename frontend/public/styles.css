@@ -1,0 +1,473 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    background-color:rgb(2, 2, 63) ;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .card{
+    background-color:  #1b1a17;
+    max-width: 48rem;
+  }
+  .card-body {
+    padding-top: 0%;
+    padding-left: 5%;
+  }
+  /*HOME*/
+  #whiteboderhome {
+    background-color: #fffaf2;
+    height: 26.2rem;
+    width: 48.3rem;
+    padding-left: 11px;
+    border-radius: 35px;
+  }
+  .homeblackContainerborder {
+    background-color: #1b1a17;
+    border-radius: 30px;
+    height: 25.5rem;
+    width: 46.9rem;
+  }
+  #hometexti {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  #hometextii {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  #homeimagemmain {
+    width: 45rem;
+    padding-top: 0px;
+  }
+  /* Navbar */
+  #navbarflagpart1 {
+    border-style: groove;
+    border-color: orange;
+    background-color: orange;
+    border-bottom-left-radius: 30%;
+    border-top-left-radius: 30%;
+    width: 48px;
+    height: 33px;
+  }
+  #navbarflagpart2 {
+    border-style: groove;
+    border-color: green;
+    background-color: darkgreen;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%;
+    width: 48px;
+    height: 33px;
+  }
+  #navbarflagtext {
+    font-family: "Arial Narrow Bold";
+    font-weight: bold;
+    color: #1b1a17;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #fffaf2;
+  }
+  .nav-link {
+    color: white !important;
+    border-bottom: 1px solid transparent;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .nav-link:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  /* Home */
+  .home {
+    padding: 2px;
+    width: 290px;
+    height: 365px;
+    position: absolute;
+    box-shadow: 10px 10px 20px black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .title {
+    text-align: center;
+  }
+  img {
+    width: 400px;
+    height: 280px;
+  }
+  
+  /* Create Account */
+  .caheader {
+    color: #fffaf2;
+    border-color: #1b1a17;
+    border-style: groove;
+    width: 35%;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: "Arial Narrow Bold";
+    border-radius: 30rem;
+    text-align: center;
+  }
+  .form-control {
+    color: violet;
+    background-color: #1b1a17;
+    border-radius: 30rem;
+    width: 28rem;
+    font-weight: bolder;
+    font-style: italic;
+    border-style: groove;
+    border-color: yellow;
+  }
+  #acreateACcoinstylei {
+    border-style: groove;
+    border-color: gold;
+    background-color: #1b1a17;
+    width: 320px;
+    height: 170px;
+    border-radius: 19px;
+  }
+  #createAcoinimage {
+    width: 18.7rem;
+    height: 9rem;
+    padding-top: 48%;
+  }
+  #createACwholedesign {
+    border-style: groove;
+    background-color: #1b1a17;
+    height: 30rem;
+    width: 40rem;
+    padding-top: 21px;
+  }
+  .labelnameCA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 47%;
+  }
+  .labelemailCA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 38%;
+  }
+  .labelpasswordCA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 43%;
+  }
+  .submitcreateAC {
+    color: #fffaf2;
+    background: #1b1a17;
+    width: 90px;
+    height: 25px;
+    border-radius: 30rem;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: #00f9ea;
+  }
+  #createAcsucess {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  .createACanother {
+    color: #fffaf2;
+    background-color: #1b1a17;
+    width: 30%;
+    height: 37px;
+    border-radius: 30rem;
+  }
+  .card-headera {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: yellow;
+  }
+  .error {
+    color: red;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Login Page */
+  
+  .loginwholedesign {
+    border-style: groove;
+    background-color: #1b1a17;
+    height: 20rem;
+    width: 50rem;
+    padding-top: 26px;
+  }
+  .loginheader {
+    color: #fffaf2;
+    border-style: groove;
+    border-color: #1b1a17;
+    width: 23%;
+    font-weight: bolder;
+    font-size: 130%;
+    font-family: "Arial Narrow Bold";
+    border-radius: 30rem;
+    text-align: center;
+  }
+  #labellEA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 35%;
+  }
+  #labellpw {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 41%;
+  }
+  .submitlogin {
+    color: #fffaf2;
+    background: #1b1a17;
+    width: 90px;
+    height: 30px;
+    border-radius: 30rem;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: #00f9ea;
+  }
+  #loginsucess {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  .loginanother {
+    color: #fffaf2;
+    background-color: #1b1a17;
+    width: 30%;
+    height: 37px;
+    border-radius: 30rem;
+  }
+  /* Deposit */
+  .depositwholedesign {
+    border-style: groove;
+    background-color: #1b1a17;
+    height: 20rem;
+    width: 50rem;
+    padding-top: 26px;
+  }
+  
+  input {
+    width: 650px;
+  }
+  
+  /* .btnstyle {
+    background: #0059FF;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px black;
+    color: white;
+  }
+  .btnstyle:hover{
+    background: crimson;
+  } */
+  
+  .btnstyle{
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    background: #0059FF;
+    transition: .5s ease;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+  }
+  .btnstyle:hover{
+    background: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+                0 0 10px 4px #799be6;
+    border-radius: 10px;
+    color: black;
+  }
+  #depositsucess {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  .depositanother {
+    color: #fffaf2;
+    background-color: #1b1a17;
+    width: 30%;
+    height: 37px;
+    border-radius: 30rem;
+  }
+  .depositheader {
+    color: #fffaf2;
+    border-style: groove;
+    border-color: black;
+    width: 23%;
+    font-weight: bolder;
+    font-size: 130%;
+    font-family: "Arial Narrow Bold";
+    border-radius: 30rem;
+    text-align: center;
+  }
+  #labeldEA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 35%;
+  }
+  #labeldam {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 41%;
+  }
+  .submitdeposit{
+    color: #fffaf2;
+    background: #1b1a17;
+    width: 90px;
+    height: 30px;
+    border-radius: 30rem;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: #00f9ea;
+  }
+  /* withdraw */
+  .withdrawheader {
+    color: #fffaf2;
+    border-style: groove;
+    border-color: black;
+    width: 23%;
+    font-weight: bolder;
+    font-size: 130%;
+    font-family: "Arial Narrow Bold";
+    border-radius: 30rem;
+    text-align: center;
+  }
+  .withdrawwholedesign {
+    border-style: groove;
+    background-color: #1b1a17;
+    height: 20rem;
+    width: 50rem;
+    padding-top: 26px;
+  }
+  #withdrawsuccess {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  #labelwEA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 35%;
+  }
+  #labelwam {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 41%;
+  }
+  .submitwithdraw{
+    color: #fffaf2;
+    background: #1b1a17;
+    width: 206px;
+    height: 30px;
+    border-radius: 30rem;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: #00f9ea;
+  }
+  /*balance*/
+  .balancewholedesign {
+    border-style: groove;
+    background-color: #1b1a17;
+    height: 20rem;
+    width: 50rem;
+    padding-left: 28px;
+    padding-top: 36px;
+  }
+  .balanceheader {
+    color: #fffaf2;
+    border-style: groove;
+    border-color: black;
+    width: 23%;
+    font-weight: bolder;
+    font-size: 130%;
+    font-family: "Arial Narrow Bold";
+    border-radius: 30rem;
+    text-align: center;
+  }
+  #labelbEA {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 35%;
+  }
+  #labelbam {
+    color: #00f9ea;
+    font-weight: bold;
+    padding-right: 41%;
+  }
+  #balancesuccess {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Arial Narrow Bold";
+    color: violet;
+  }
+  .submitbalance{
+    color: #fffaf2;
+    background: #1b1a17;
+    width: 242px;
+    height: 30px;
+    border-radius: 30rem;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: #00f9ea;
+  }
+  /* All Data */
+  #alluser{
+    color: #fffaf2;
+    width: 494px;
+    text-align: center;
+    height: 35px;
+    border-radius: 30rem;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: #00f9ea;
+  }
+  .alldata {
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+    width: 1100px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .alldata .card-headera{
+    color: yellow;
+  }
+  #users {
+    width: 1000px;
+    border: 1px solid black;
+  }
+  
+  td {
+    color: sienna;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background: linear-gradient(135deg, #71b7e6, #9b59);
+    color: black;
+    padding: 15px;
+    text-align: left;
+  }
+  
